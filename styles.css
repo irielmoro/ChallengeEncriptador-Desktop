@@ -153,5 +153,6 @@ footer{
     text-align: center;
     font-size: 11px;
     font-family: 'Inter';
-    
+    position: absolute;
+    width: 100%;
 } 
