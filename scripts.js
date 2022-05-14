@@ -18,7 +18,7 @@ var keys = [
 //BOTON PARA ENCRIPTAR TEXTO
 btnEncriptar.addEventListener("click", function(){
 
-    //VALIDACIÓ DE MAYÚSCULAS Y/O ACENTOS
+    //VALIDACIÓN DE MAYÚSCULAS Y/O ACENTOS
     if(/[A-Z]/.test(input.value) || /[äÄëËïÏöÖüÜáéíóúáéíóúÁÉÍÓÚÂÊÎÔÛâêîôûàèìòùÀÈÌÒÙ]/.test(input.value)){
         error.classList.remove("invisible");
         return
@@ -49,7 +49,7 @@ btnEncriptar.addEventListener("click", function(){
 //BOTON PARA DESENCRIPTAR TEXTO
 btnDesencriptar.addEventListener("click", function(){
 
-    //VALIDACIÓ DE MAYÚSCULAS Y/O ACENTOS
+    //VALIDACIÓN DE MAYÚSCULAS Y/O ACENTOS
     if(/[A-Z]/.test(input.value) || /[äÄëËïÏöÖüÜáéíóúáéíóúÁÉÍÓÚÂÊÎÔÛâêîôûàèìòùÀÈÌÒÙ]/.test(input.value)){
         error.classList.remove("invisible");
         return
