@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" href="./img/Logo.ico">
+    <!--CUSTOM CCS-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+   <main>
+         <img src="./img/Logo.png" alt="Logo" class="logo">
+
+         <div id="error" class="invisible">
+         Lo sentimos, no se admiten letras en mayúscula ni acentos. Porfavor, ingrese únicamente letras minúsculas sin acentos.
+         </div>
+         <textarea id="texto-ingresado" name="textarea" cols="40" rows="10" style="width: 700px; height: 340px; border: none" placeholder="Ingrese el texto aquí" required></textarea>
+
+        <div class="contenedor-texto-resultado"> 
+            <textarea class="invisible" id="texto-resultado" cols="48" rows="30" style="width: 350px; height: 350px; border: none" readonly></textarea>
+            <button class="invisible" id="btn-copiar">Copiar</button>
+            <p class="invisible" id="pegar">¡Copiado!(Presione Ctrl+V para pegar el texto)</p>
+            <div id="muñeco-texto">
+                <img src="./img/Muñeco.png" alt="muñeco" class="muñeco">
+                <h3>Ningún mensaje fue encontrado.</h3>
+                <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+            </div>
+            
+        </div>
+
+        <div class="botones">
+            <p class="icon-exclamation"><img src="./img/icon-exclamation.png" alt="">Solo letras minúsculas y sin acentos</p>
+            <button id="btn-encriptar">Encriptar</button>
+            <button id="btn-desencriptar">Desencriptar</button>
+        </div>
+   </main>
+
+    <footer>
+        &copy Iriel Moro - 2022 - AluraChallenge
+    </footer>
+
+<!--CUSTOM JS-->   
+<script src="scripts.js"></script>
+</body>
+</html>

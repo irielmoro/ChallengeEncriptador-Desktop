@@ -1,0 +1,157 @@
+
+body{
+    background-color: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: auto;
+    height: 628px;
+}
+
+.logo{
+    position: static;
+    width: 120px;
+    height: 48px;
+    margin: 40px;
+}
+
+#error{
+position: absolute;
+left: 200px;
+top: 60px;
+color: red;
+font-size: 15px;
+width: 500px;
+}
+
+#texto-ingresado{
+    position: absolute;
+    top: 100px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    background: none;
+    color: #0A3871;
+    outline: none;
+}
+
+#texto-ingresado::placeholder{
+color: #0a3871a1;
+}
+
+
+.contenedor-texto-resultado{
+    position: absolute;
+    left: 68%;
+    top: 30px;
+    background-color: white;
+    width: 400px;
+    height: 590px;
+    border-radius: 32px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.185);
+}
+.contenedor-texto-resultado h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 20px;
+    color: #495057;
+}
+
+.contenedor-texto-resultado p{
+    font-size: 16px;
+    color: #495057;
+    margin: 10px 20px;
+}
+
+#texto-resultado{
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    left: 0%;
+    margin: 0px auto;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    background: none;
+    color: #0A3871;
+    outline: none;
+}
+
+.invisible{
+    display: none;
+}
+.muñeco{
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+
+.icon-exclamation {
+    margin: 20px 10px;
+    color: #495057;
+}
+
+.icon-exclamation img{
+    margin-right: 10px;
+}
+
+.botones{
+    position: absolute;
+    bottom: 60px;
+    left: 200px;
+}
+
+#btn-encriptar, #btn-desencriptar, #btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin: 0px 5px;
+    background-color: #0A3871;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #0A3871 ;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#btn-desencriptar, #btn-copiar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#btn-copiar{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 82%;
+    width: 280px;
+    margin: 0px auto;
+}
+
+#pegar{
+    position: absolute;
+    top: 560px;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    margin: 1px auto;
+}
+
+footer{
+    background-color: #113f773d;
+    color: #0A3871;
+    padding: 3px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Inter';
+    
+} 
