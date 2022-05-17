@@ -162,4 +162,10 @@ footer{
     padding: 6px;
     text-align: center;
     font-size: 11px;
+<<<<<<< HEAD
+=======
+    font-family: 'Inter';
+    position: absolute;
+    width: 100%;
+>>>>>>> 9283e39b70c5390184257a1acd13f6723a9a2c04
 } 
